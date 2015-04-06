@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CollageButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_40</item>
+        <item name="android:layout_marginLeft">@dimen/dp_25</item>
+        <item name="android:layout_marginRight">@dimen/dp_25</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:layout_marginBottom">@dimen/dp_10</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="android:paddingBottom">@dimen/dp_5</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/bg_collage_button</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dp_40</item>
+        <item name="android:layout_marginLeft">@dimen/dp_25</item>
+        <item name="android:layout_marginRight">@dimen/dp_25</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="android:paddingBottom">@dimen/dp_5</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/bg_button</item>
+    </style>
+
+    <style name="ButtonCollageGo">
+        <item name="android:layout_marginLeft">@dimen/dp_25</item>
+        <item name="android:layout_marginTop">@dimen/dp_10</item>
+        <item name="android:paddingLeft">@dimen/dp_20</item>
+        <item name="android:paddingRight">@dimen/dp_20</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="android:paddingBottom">@dimen/dp_5</item>
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:background">@drawable/bg_button</item>
+    </style>
+
+    <style name="DatePicker" parent="Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:paddingRight">@dimen/dp_10</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:background">@drawable/bg_date_picker</item>
+        <item name="android:drawableRight">@drawable/ic_date</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_40</item>
+        <item name="android:layout_marginLeft">@dimen/dp_25</item>
+        <item name="android:layout_marginRight">@dimen/dp_25</item>
+        <item name="android:textSize">@dimen/dp_18</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:background">@drawable/bg_edit_text</item>
+    </style>
+</resources>

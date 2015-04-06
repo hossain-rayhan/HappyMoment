@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- raw color codes -->
+    <color name="lite_yellow">#d9e021</color>
+    <color name="yellow">#fbae17</color>
+    <color name="yellow_15">#B3FBAE17</color>
+    <color name="dark_yellow">#F29C03</color>
+    <color name="yellow_green">#c6c61a</color>
+    <color name="green">#39b54a</color>
+    <color name="dark_green">#208222</color>
+    <color name="blue">#0000CC</color>
+    <color name="red_10">#1Aed1c24</color>
+    <color name="red_15">#26ed1c24</color>
+    <color name="red_20">#33ed1c24</color>
+    <color name="red_25">#40ed1c24</color>
+    <color name="red_30">#4Ded1c24</color>
+    <color name="red_35">#59ed1c24</color>
+    <color name="red_50">#80ed1c24</color>
+    <color name="red">#ed1c24</color>
+    <color name="dark_red">#CC0000</color>
+    <color name="lite_orange">#e29d15</color>
+    <color name="orange">#f15a24</color>
+    <color name="dark_orange">#E83D15</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_15">#26FFFFFF</color>
+    <color name="white_85">#D9FFFFFF</color>
+    <color name="black_5">#0D000000</color>
+    <color name="black_10">#1A000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_90">#E6000000</color>
+    <!-- -->
+
+
+    <color name="strip_1_splash_screen">@color/green</color>
+    <color name="strip_2_splash_screen">@color/lite_yellow</color>
+    <color name="strip_3_splash_screen">@color/yellow</color>
+    <color name="strip_4_splash_screen">@color/orange</color>
+    <color name="strip_5_splash_screen">@color/red</color>
+    <color name="bg_action_bar">@color/yellow</color>
+    <color name="bg_home_screen_joruri_jojajog">@color/yellow</color>
+    <color name="bg_home_screen_settings">@color/green</color>
+    <color name="bg_registration_screen_top">@color/yellow_green</color>
+    <color name="bg_registration_screen_bottom">@color/black_10</color>
+    <color name="bg_registration_screen_editText">@color/black_15</color>
+    <color name="bg_registration_screen_editText_focused">@color/yellow</color>
+    <color name="bg_registration_screen_spinner">@color/black_15</color>
+    <color name="bg_registration_screen_spinner_selected">@color/yellow</color>
+    <color name="bg_registration_screen_spinner_focused">@color/yellow_15</color>
+    <color name="bg_registration_screen_button">@color/black_15</color>
+    <color name="bg_registration_screen_button_disabled">@color/black_5</color>
+    <color name="bg_registration_screen_button_focused">@color/yellow_15</color>
+    <color name="bg_registration_screen_button_pressed">@color/yellow</color>
+    <color name="bg_dialog_button_focused">@color/yellow_15</color>
+    <color name="bg_dialog_button_pressed">@color/yellow</color>
+    <color name="bg_details_screen">@color/lite_orange</color>
+    <color name="topic_item_selector">@color/red_50</color>
+    <color name="topic_item_one">@color/red_35</color>
+    <color name="topic_item_two">@color/red_30</color>
+    <color name="topic_item_three">@color/red_25</color>
+    <color name="topic_item_four">@color/red_20</color>
+    <color name="topic_item_five">@color/red_15</color>
+    <color name="topic_item_six">@color/red_10</color>
+    <color name="bg_emergency_contact">@color/black_10</color>
+    <color name="divider_emergency_contact">@color/black_30</color>
+    <color name="bg_about_screen">@color/black_10</color>
+</resources>

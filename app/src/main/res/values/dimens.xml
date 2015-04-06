@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="splash_color_strip_height">@dimen/dp_30</dimen>
+    <dimen name="topic_pager_height">@dimen/dp_190</dimen>
+    <dimen name="shadow_minus_margin">@dimen/minus_dp_25</dimen>
+    <dimen name="bullet_text_size">@dimen/dp_18</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

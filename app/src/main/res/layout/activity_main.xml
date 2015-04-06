@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btn_collage">
+
+        <Button
+            android:id="@+id/btn_start"
+            style="@style/DatePicker"
+            android:layout_marginTop="@dimen/dp_10"
+            android:hint="Start Date" />
+
+        <Button
+            android:id="@+id/btn_end"
+            android:layout_below="@id/btn_start"
+            style="@style/DatePicker"
+            android:hint="Last Date"
+            android:layout_marginTop="@dimen/dp_10" />
+
+        <EditText
+            android:id="@+id/et_keyword"
+            style="@style/EditText"
+            android:hint="Keyword"
+            android:layout_below="@id/btn_end"
+            android:inputType="textPersonName"
+            android:paddingLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_10" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_below="@id/et_keyword"
+            style="@style/Button"
+            android:hint="Go"
+            android:layout_marginTop="@dimen/dp_10" />
+
+        <ListView
+            android:id="@+id/lv_url"
+            android:layout_below="@id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_25"
+            android:layout_marginRight="@dimen/dp_25"
+            android:divider="@color/yellow_15"
+            android:dividerHeight="1px" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@id/btn_collage"
+        style="@style/CollageButton"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/sp_15"
+        android:text="Collage" />
+
+</RelativeLayout>
